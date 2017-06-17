@@ -117,7 +117,7 @@ func printInfo(w io.Writer, u, r string, i *github.Issue, pr *github.PullRequest
 		pr.GetAdditions(), pr.GetDeletions())
 	prComments := fmt.Sprintf("C %d |", pr.GetComments())
 	prCreatedAt := i.GetCreatedAt().Format("2006-01-02") + " |"
-	prURL := i.GetURL()
+	prURL := i.GetHTMLURL()
 
 	fmt.Fprintln(w, repoInfo, prStats, prComments, prCreatedAt, prURL)
 }
