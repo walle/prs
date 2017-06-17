@@ -1,0 +1,37 @@
+memo = "449601fad98853d825647c4eea799d857fb408846da7f13708e7963cca356040"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golang/protobuf"
+  packages = ["proto"]
+  revision = "e325f446bebc2998605911c0a2650d9920361d4a"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/google/go-github"
+  packages = ["github"]
+  revision = "7a51fb928f52a196d5f31daefb8a489453ef54ff"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/google/go-querystring"
+  packages = ["query"]
+  revision = "53e6ce116135b80d037921a7fdd5138cf32d7a8a"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/net"
+  packages = ["context"]
+  revision = "973f3f3bbd50e92b13faa6c53ec16f49b45e851c"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/oauth2"
+  packages = [".","internal"]
+  revision = "f047394b6d14284165300fd82dad67edb3a4d7f6"
+
+[[projects]]
+  name = "google.golang.org/appengine"
+  packages = [".","internal","internal/app_identity","internal/base","internal/datastore","internal/log","internal/modules","internal/remote_api","internal/urlfetch","urlfetch"]
+  revision = "150dc57a1b433e64154302bdc40b6bb8aefa313a"
+  version = "v1.0.0"
